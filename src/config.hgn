@@ -1,0 +1,6 @@
+#drow mod function
+DROW="opengl"
+#skin
+SKIN="default.skp"
+#ldboard sort
+LDS="sroce"
