@@ -1,0 +1,20 @@
+﻿################################################################################
+# 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
+################################################################################
+
+/.vs
+/src/hgnReader/.vs
+/src/hgnReader/Release
+/src/hgnReader/x64/Release/ZERO_CHECK
+/src/hgnReader/hgnFile.dir/Release
+/src/hgnReader/CMakeFiles
+/src/hgnReader/ALL_BUILD.vcxproj
+/src/hgnReader/ALL_BUILD.vcxproj.filters
+/src/hgnReader/ALL_BUILD.vcxproj.user
+/src/hgnReader/CMakeCache.txt
+/src/hgnReader/cmake_install.cmake
+/src/hgnReader/hgnFile.sln
+/src/hgnReader/hgnFile.vcxproj
+/src/hgnReader/hgnFile.vcxproj.filters
+/src/hgnReader/ZERO_CHECK.vcxproj
+/src/hgnReader/ZERO_CHECK.vcxproj.filters
