@@ -1,6 +1,8 @@
-#drow mod function
-DROW="opengl"
-#skin
-SKIN="default.skp"
-#ldboard sort
-LDS="sroce"
+#drow func can pick "opengl" "Win32" "Win GDI" "DX9" "DX10" "DX11" "DX12" "vulkan"#
+<drow func="opengl"/>
+#skin pls pick dir true and skin setting file only support json file type#
+<skin dir="default" file="skin.json"/>
+#lds = leaderboard sort can using "sroce" "acc" "rank" "time" "user_name"#
+<lds func="sroce"/>
+#mode have four type "down" "rotate" "rlpick" ""#
+<mode type="down"/>

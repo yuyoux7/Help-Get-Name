@@ -18,3 +18,6 @@
 /src/hgnReader/hgnFile.vcxproj.filters
 /src/hgnReader/ZERO_CHECK.vcxproj
 /src/hgnReader/ZERO_CHECK.vcxproj.filters
+/src/hgnReader/hgnReader.vcxproj.filters
+/src/hgnReader/hgnReader.sln
+/src/hgnReader/hgnReader.vcxproj
