@@ -17,7 +17,7 @@ ModList Mode::Get_Now_Mode()
 
 void Mode::Mode_Setting()
 {
-	fstream config{};
+	filestream config{};
 	config.open((GameModeStringGet() + Mode_Config_File));
 	if (config.is_open())
 	{
@@ -40,6 +40,7 @@ const char* Mode::GameModeStringGet()
 	return nullptr;
 }
 
-void fstream::getset(ConfigSetList type)
+void filestream::getset(ConfigSetList type)
 {
+	hgnReader(type, );
 }

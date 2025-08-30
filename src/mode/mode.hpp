@@ -1,12 +1,13 @@
 #pragma once
 #include <fstream>
 #ifndef Mode_Config_File
-#define Mode_Config_File "func.config"
+#define Mode_Config_File "config.hgn"
 #endif  
 
 typedef enum {
 	Down = 0x0001,
-	Rotate = 0x0010
+	Rotate = 0x0010,
+	RLPick = 0x0100
 }ModList;
 
 typedef struct {
@@ -23,6 +24,6 @@ private:
 	ModList GameMode{};
 	const char* GameModeStringGet();
 };
-class fstream : public std::ifstream {
+class filestream : public std::ifstream {
 	void getset(ConfigSetList type);
 };
