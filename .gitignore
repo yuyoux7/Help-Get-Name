@@ -21,3 +21,7 @@
 /src/hgnReader/hgnReader.vcxproj.filters
 /src/hgnReader/hgnReader.sln
 /src/hgnReader/hgnReader.vcxproj
+/src/.vs
+/src/hgnReader/Debug
+/src/hgnReader/hgnReader.dir
+/src/hgnReader/x64/Debug/ZERO_CHECK

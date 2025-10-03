@@ -1,7 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include "base64.hpp"
-constexpr auto _BFILE_ = "bfile.hgn";
+constexpr auto _BFILE_ = "key.ky";
+constexpr auto _OFILE_ = "Config.hgn";
 using namespace ::std;
 
 int main(int argc, char* argv[])
@@ -90,7 +91,7 @@ int main(int argc, char* argv[])
 		}
 		ostr.pop_back();
 		if (!lock) {
-			tofile.open("test.hgn");
+			tofile.open(_OFILE_);
 			if (tofile.is_open())
 			{
 				tofile << ostr;
